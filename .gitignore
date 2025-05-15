@@ -1,0 +1,9 @@
+.logs
+
+__pycache__
+.idea/
+*.log
+*.swp
+*.pyc
+logs/
+*.csv

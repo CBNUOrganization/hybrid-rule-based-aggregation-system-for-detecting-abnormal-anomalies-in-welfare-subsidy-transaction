@@ -1,12 +1,38 @@
-Topic: A novel hybrid rule-based aggregation system for detecting abnormal anomalies in welfare subsidy transaction operating in real-time scenario.
-Target Journal: wiley concurrency and computation 
+# Anomaly Transaction Detection Project
 
-Objectives:
+This project aims to detect anomalous transactions using machine learning techniques.
 
-1.      To undergo through investigation of real time anamolies in Welfare subsidy transactions using real time dataset creating strong proportion between entities and attributes.
-2.      To propose Novel Hybrid System using Rule based Threshold System to detect Anamolies.
-3.      To test and validate the proposed system on various performance metrices like:
-4.      And, to compare the proposed system with existing systems like:
+## Project Structure
 
-Patent: performance should be over existing method
-flowchart, diagram, architecture
+*   `dataset/`: Contains the transaction datasets.
+*   `logs/`: Contains the training logs.
+*   `models/`: Contains the trained models.
+*   `src/`: Contains the source code.
+*   `src/api/`: Contains the API code.
+*   `src/ui/`: Contains the UI code.
+
+## Requirements
+
+*   Python 3.6+
+*   TensorFlow 2.0+
+*   scikit-learn
+*   pandas
+*   numpy
+
+## Usage
+
+1.  Install the requirements: `pip install -r requirements.txt`
+2.  Run the API: `python src/api/api.py`
+3.  Run the UI: `python src/ui/ui.py`
+
+## Models
+
+*   Random Forest
+
+## Datasets
+
+*   BizPlay transaction data
+
+## Contributing
+
+Please feel free to contribute to this project.
